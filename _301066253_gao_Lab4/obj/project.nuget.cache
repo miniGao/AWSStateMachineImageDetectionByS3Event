@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "NvyiA17tAKB5QnHmZt7LjqF6dOYpa+ywFsPxAqCU2hW/0ubjC8BU9WZabC/t1Uwj5Mi3LxjnaUcy9YsXyYPZ8Q==",
+  "success": true,
+  "projectFilePath": "E:\\Google Drive\\Documents\\Centennial College\\2020 Fall Semester\\Workspace Fall 2020\\TestingLab\\NETCore\\301066253(gao)_Lab4\\_301066253_gao_Lab4\\_301066253_gao_Lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gary\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\awssdk.core\\3.5.1.47\\awssdk.core.3.5.1.47.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\awssdk.dynamodbv2\\3.5.4.6\\awssdk.dynamodbv2.3.5.4.6.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\awssdk.rekognition\\3.5.2.20\\awssdk.rekognition.3.5.2.20.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\awssdk.s3\\3.5.6.3\\awssdk.s3.3.5.6.3.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\grapecity.documents.common\\4.0.0.619\\grapecity.documents.common.4.0.0.619.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\grapecity.documents.imaging\\4.0.0.619\\grapecity.documents.imaging.4.0.0.619.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.10\\microsoft.extensions.configuration.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.10\\microsoft.extensions.configuration.abstractions.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.10\\microsoft.extensions.configuration.fileextensions.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.10\\microsoft.extensions.configuration.json.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.10\\microsoft.extensions.fileproviders.abstractions.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.10\\microsoft.extensions.fileproviders.physical.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.10\\microsoft.extensions.filesystemglobbing.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.10\\microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Gary\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,62 @@
+{
+  "Comment": "State Machine",
+  "StartAt": "ImageRecognition",
+  "States": {
+    "ImageRecognition": {
+      "Type": "Task",
+      "Resource": "${ImageRecognitionTask.Arn}",
+      "Next": "ChoiceStateS3EventError"
+    },
+    "ChoiceStateS3EventError": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.Error",
+          "StringEquals": "Request Parameter is null",
+          "Next": "EndAtError"
+        },
+        {
+          "Variable": "$.Error",
+          "StringEquals": "File type not supported",
+          "Next": "EndAtError"
+        },
+        {
+          "Variable": "$.Error",
+          "StringEquals": "",
+          "Next": "DynamoS3Parallel"
+        }
+      ]
+    },
+    "EndAtError": {
+      "Type": "Task",
+      "Resource": "${EndAtErrorTask.Arn}",
+      "End": true
+    },
+    "DynamoS3Parallel": {
+      "Type": "Parallel",
+      "Branches": [
+        {
+          "StartAt": "AddLabelToDynamoDB",
+          "States": {
+            "AddLabelToDynamoDB": {
+              "Type": "Task",
+              "Resource": "${AddLabelToDynamoDBTask.Arn}",
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "AddThumbnailToS3",
+          "States": {
+            "AddThumbnailToS3": {
+              "Type": "Task",
+              "Resource": "${AddThumbnailToS3Task.Arn}",
+              "End": true
+            }
+          }
+        }
+      ],
+      "End": true
+    }
+  }
+}
